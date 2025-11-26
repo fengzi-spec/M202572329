@@ -45,6 +45,9 @@ $$\{evaluator(reviewer(paper)) | reviewer, evaluator \in [DS, KM, DB], paper \in
 
     现在希望能够给学术研讨小组找到一个系统性的方法，应用大语言模型推理来帮助提升同学们论文研讨的质量，结合目标论文，通过开发特定提示词，引导、鼓励同学们进行相关研究工作基础知识的追溯、有思想深度的质疑，以及研究合理性的批判。请结合这篇论文，考虑高质量质疑和研讨的关键要素，综合进行科学评分，构造一套对"提问质量"进行评分的提示词，提示词的使用方法是结合一篇论文及对这篇论文的提问，对所提问题进行0到10分的评价。
 
+**评价流程**
+    本次评价中，选择了论文Questioning Techniques Promote Critical Thinking in Engineering Education作为评价参考，
+
 ## 评分统计
 
 对论文 FLATQUANT: Flatness Matters for LLM Quantization 进行DeepSeek、KIMI、豆包、文心的质疑与相互评分统计，共得到16组得分。
