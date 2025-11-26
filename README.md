@@ -6,7 +6,7 @@ prompt for learning by questioning
 
     请从实际应用落地的可行性、核心工作的代价和收益矛盾、实验场景和负载的代表性这几个方面，对这项工作提出质疑
 
-**常用模型**：DeepSeek、KIMI、豆包、文心、ChatGPT
+**常用模型**：DeepSeek、KIMI、qwen、文心.
 
 **交叉评价**:
 
@@ -67,7 +67,7 @@ $$\{evaluator(reviewer(paper)) | reviewer, evaluator \in [DS, KM, DB], paper \in
 
 ## 评分统计
 
-对论文 FLATQUANT: Flatness Matters for LLM Quantization 进行DeepSeek、KIMI、豆包、文心的质疑与相互评分统计，共得到16组得分。
+对论文  进行DeepSeek、KIMI、qwen、文心的质疑与相互评分统计，共得到16组得分。
 
 | 质疑模型 | qwen打分 | deepseek打分 | kimi打分 | 文心一言打分 |
 |:-----------------:|:---------:|:-----:|:-----:|:---------:|
@@ -75,4 +75,4 @@ $$\{evaluator(reviewer(paper)) | reviewer, evaluator \in [DS, KM, DB], paper \in
 | deepseek             | 9.7      | 8.5  | 8.6  | 8.0      |
 | kimi             | 8.4      | 8.4  | 8.8  | 8.6      |
 | 文心一言         | 7.8      | 8.0  | 8.4  | 8.2      |
-| ChatGPT         | 7.8      | 8.0  | 8.4  | 8.2      |
+
