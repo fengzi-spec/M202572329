@@ -47,7 +47,7 @@ $$\{evaluator(reviewer(paper)) | reviewer, evaluator \in [DS, KM, DB], paper \in
 
 **评价流程**
 
-    本次评价中，选择了论文Questioning Techniques Promote Critical Thinking in Engineering Education作为评价参考，然后4个ai模型对论文进行评价，这里展示质疑情况的总结如下所示：
+    本次评价中，选择了论文Questioning Techniques Promote Critical Thinking in Engineering Education作为评价参考，然后4个ai模型对论文IMPRESS: An Importance-Informed Multi-Tier Prefix KV Storage System for Large Language Model Inference进行评价，这里展示质疑情况的总结如下所示：
     1.qwen：
     IMPRESS 的核心思想——基于重要性剪枝 + 多级存储优化 I/O——具有启发性，尤其对高共享、长上下文、SSD 瓶颈场景可能有效。然而，其部署复杂度、假设依赖性、负载通用性等方面存在明显挑战。在缺乏真实业务 trace 验证、未与工业级推理引擎集成、且未覆盖边缘 case 的前提下，其“2.8× TTFT 降低”的收益可能难以复现于实际系统。建议未来工作：发布 trace 驱动的开源 benchmark，与 vLLM/TGI 集成，在真实客服/知识库场景中 A/B 测试。 
     2.deepseek：
@@ -78,7 +78,7 @@ $$\{evaluator(reviewer(paper)) | reviewer, evaluator \in [DS, KM, DB], paper \in
 
 ## 评分统计
 
-对论文  进行DeepSeek、KIMI、qwen、文心的质疑与相互评分统计，共得到16组得分。
+对论文IMPRESS: An Importance-Informed Multi-Tier Prefix KV Storage System for Large Language Model Inference进行DeepSeek、KIMI、qwen、文心的质疑与相互评分统计，共得到16组得分。
 
 | 质疑模型 | qwen打分 | deepseek打分 | kimi打分 | 文心一言打分 |
 |:-----------------:|:---------:|:-----:|:-----:|:---------:|
